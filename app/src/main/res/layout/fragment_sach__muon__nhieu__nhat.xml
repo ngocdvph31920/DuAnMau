@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="fpoly.ngocdvph31920.duanmau.Quan_Ly_Phieu_Muon_Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Top 10 sách mượn nhiều nhất"
+        android:textSize="40sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rycTop10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
